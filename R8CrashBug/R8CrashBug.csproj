@@ -61,6 +61,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Platforms\Android\proguard.cfg" />
 	  <None Remove="resources\raw\hybridview\index.html" />
 	</ItemGroup>
 
@@ -73,6 +74,10 @@
 
 	<ItemGroup>
 	  <Folder Include="Resources\raw\hybridview\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProguardConfiguration Include="Platforms\Android\proguard.cfg" />
 	</ItemGroup>
 
 </Project>
